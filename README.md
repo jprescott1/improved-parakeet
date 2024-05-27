@@ -1,2 +1,2 @@
 # improved-parakeet
-Working through Building an Orchestrator in Go (from scratch)
+Working through the Building an Orchestrator in Go (from scratch) book
