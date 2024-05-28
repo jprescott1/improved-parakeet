@@ -47,8 +47,8 @@ func main() {
 
 	m := manager.Manager{
 		Pending: *queue.New(),
-		TaskDb:  make(map[string][]task.Task),
-		EventDb: make(map[string][]task.TaskEvent),
+		TaskDb:  make(map[string][]*task.Task),
+		EventDb: make(map[string][]*task.TaskEvent),
 		Workers: []string{w.Name},
 	}
 
